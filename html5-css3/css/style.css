@@ -113,7 +113,7 @@ form legend {
 .input-padrao {
   display: block;
   margin: 0 0 20px;
-  padding: 10px 25px;
+  padding: 10px 15px;
   width: 50%;
 }
 
@@ -261,7 +261,9 @@ td {
   .principal,
   .conteudo-beneficios,
   .mapa-conteudo,
-  .video {
+  .video,
+  .produtos,
+  .contato {
     width: auto;
   }
 
@@ -278,10 +280,6 @@ td {
     width: 100%;
   }
 
-  .produtos {
-    width: auto;
-  }
-
   .produtos li {
     display: block;
     width: auto;
@@ -289,5 +287,33 @@ td {
   }
   .produtos li:last-child {
     margin: 0 10%;
+  }
+
+  form {
+    margin: 20px;
+  }
+
+  form label,
+  form legend,
+  .input-padrao {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .checkbox {
+    margin: 25px 0;
+  }
+
+  .enviar {
+    width: 100%;
+  }
+
+  .enviar:hover {
+    background: darkorange;
+    transform: scale(1.1) rotate(2deg);
+  }
+
+  table {
+    margin: 20px;
   }
 }
