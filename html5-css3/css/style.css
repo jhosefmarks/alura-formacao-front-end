@@ -277,4 +277,17 @@ td {
   .imagem-beneficios {
     width: 100%;
   }
+
+  .produtos {
+    width: auto;
+  }
+
+  .produtos li {
+    display: block;
+    width: auto;
+    margin: 0 10% 10%;
+  }
+  .produtos li:last-child {
+    margin: 0 10%;
+  }
 }
